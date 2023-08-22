@@ -40,7 +40,3 @@ All model can be decomposed, so which means the only important thing is Configur
 
 Please check config file.
 
-
-Please check the Doc.
-
-We would make it opensource after publishing the paper
