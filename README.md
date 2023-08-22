@@ -33,14 +33,15 @@ ImageNette: Need Upload
 
 
 2. Slow Way
-
-We developed a auto pipeline call AutoSSL.
-
+ 
+We developed a auto pipeline call AutoSSL. bUT We would make it opensource after publishing the paper
 All model can be decomposed, so which means the only important thing is Configuration..
 
+1. config
 Please check config file.
 
+2. Result expiermentRecord
+Result: Epxiemrnet STD of view, batch, feature, KNN,
 
-Please check the Doc.
+3. 
 
-We would make it opensource after publishing the paper
