@@ -23,16 +23,16 @@ Change to our multi-view version.
 
 The Result in papers Please check
 
-CIFAR100 Need Upload
+CIFAR100 https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars
 CIFAR10 https://tensorboard.dev/experiment/I9NZuY9gSyeyS9qoNksAXg/#scalars
-STL-10 Need Upload
+STL-10 https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars
 TINYIMAGENET: https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars 
-ImageNette: Need Upload
+ImageNette: https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars
 
 
 
 
-2. Slow Way
+1. Slow Way
  
 We developed a auto pipeline call AutoSSL. bUT We would make it opensource after publishing the paper
 All model can be decomposed, so which means the only important thing is Configuration..
