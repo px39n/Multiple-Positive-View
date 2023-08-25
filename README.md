@@ -32,7 +32,7 @@ ImageNette: https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars
 
 
 
-1. Slow Way
+2. Slow Way
  
 We developed a auto pipeline call AutoSSL. bUT We would make it opensource after publishing the paper
 All model can be decomposed, so which means the only important thing is Configuration..
