@@ -13,9 +13,8 @@ To verify the efficacy of our proposed approach, there are two distinct pathways
 
 For a majority of view-invariant methods, our approach can be validated with minimal code adjustments. Below is the corresponding pseudo-code for the integration, ensuring all configurations such as stopping gradient, batch size, etc., remain consistent for a fair comparison.
 
-```plaintext
-[Insert Pseudo Code or Replace with a Figure]
-```
+![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/d0121c2e-290c-499a-b7c3-95066552e844)
+
 
 #### Example Use-Case
 
