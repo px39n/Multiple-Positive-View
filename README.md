@@ -19,7 +19,7 @@ In this paper, we demonstrate the applicability of our method by performing expe
 
 ### 2. Detailed Analysis and Diagnosis through [AutoSSL](https://autossl.gitbook.io/)
 
-We introduce an automated pipeline, dubbed `[AutoSSL](https://autossl.gitbook.io/)`, that we intend to open-source upon the paper's publication. Below, we provide a concise description of its core functionalities and how it is utilized in our research.
+We introduce an automated pipeline, dubbed `AutoSSL`, that we intend to open-source upon the paper's publication. Below, we provide a concise description of its core functionalities and how it is utilized in our research.
 
 #### 1. Configurable Modeling
 
