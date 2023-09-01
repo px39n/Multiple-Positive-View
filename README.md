@@ -1,47 +1,50 @@
-# Multiple Positive View
- For Paper in ICLR
+Certainly, here's your content reformatted and refined in Markdown to make it more academic and meet publication standards.
 
+---
 
-There are two ways to re-implement the experiment in Paper.
+# Multiple Positive Views in Self-Supervised Learning
+**To be submitted to ICLR**
 
+## Experiment Reproduction Methodologies
 
+To verify the efficacy of our proposed approach, there are two distinct pathways for reimplementing the experiments presented in this paper. 
 
-1. Fast Way
+### 1. Plug-and-Play Integration
 
-For any kind of paper, Just make sure, they have all same XX. And change multi-View
+For a majority of view-invariant methods, our approach can be validated with minimal code adjustments. Below is the corresponding pseudo-code for the integration, ensuring all configurations such as stopping gradient, batch size, etc., remain consistent for a fair comparison.
 
-Just simply adjust the pseudo Code, like 
+```plaintext
+[Insert Pseudo Code or Replace with a Figure]
+```
 
-[Insert Psudeo code here]
+#### Example Use-Case
 
+In this paper, we demonstrate the applicability of our method by performing experiments on benchmark datasets using the Python library ![Lightly](https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet). Our method has been adapted for multi-view scenarios in these experiments.
 
-For example, We have modified the All benchmark here
-https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet
+### 2. Detailed Analysis and Diagnosis through AutoSSL
 
-Change to our multi-view version.
+We introduce an automated pipeline, dubbed `AutoSSL`, that we intend to open-source upon the paper's publication. Below, we provide a concise description of its core functionalities and how it is utilized in our research.
 
+#### 1. Configurable Modeling
 
-The Result in papers Please check
+The underlying principle behind AutoSSL is to decompose all models into a series of modular functions. This allows for high flexibility in experimental setup, requiring only a configuration file for specification. For instance, the primary difference between SimCLR and SimSiam can be attributed to the stopping gradient and the dimensions of specific layers, all of which can be specified in a configuration file.
 
-CIFAR100 https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars
-CIFAR10 https://tensorboard.dev/experiment/I9NZuY9gSyeyS9qoNksAXg/#scalars
-STL-10 https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars
-TINYIMAGENET: https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars 
-ImageNette: https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars
+#### 2. Metrics and Experimental Records
 
+Upon the completion of training, AutoSSL automatically records a comprehensive set of metrics useful for assessing the quality of self-supervised learning models. These include:
 
+- Standard Deviation (STD) of views
+- STD of batches
+- STD of feature representations
+- K-Nearest Neighbors (KNN) accuracy
+- Linear classification accuracy
+- Running time
+- Forward propagation time
+- Backward propagation time
+- GPU utilization
 
+---
 
-2. Slow Way
- 
-We developed a auto pipeline call AutoSSL. bUT We would make it opensource after publishing the paper
-All model can be decomposed, so which means the only important thing is Configuration..
+By following the aforementioned methodologies, the experiments presented in this paper can be reliably replicated and further extended for in-depth analyses.
 
-1. config
-Please check config file.
-
-2. Result expiermentRecord
-Result: Epxiemrnet STD of view, batch, feature, KNN,
-
-3. 
-
+---
