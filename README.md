@@ -1,7 +1,4 @@
-Certainly, here's your content reformatted and refined in Markdown to make it more academic and meet publication standards.
-
----
-
+ 
 # Multiple Positive Views in Self-Supervised Learning
 **To be submitted to ICLR**
 
@@ -47,3 +44,11 @@ Upon the completion of training, AutoSSL automatically records a comprehensive s
 By following the aforementioned methodologies, the experiments presented in this paper can be reliably replicated and further extended for in-depth analyses.
 
 ---
+
+## Intermediate Data During Experiment
+
+CIFAR100 https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars
+CIFAR10 https://tensorboard.dev/experiment/I9NZuY9gSyeyS9qoNksAXg/#scalars
+STL-10 https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars
+TINYIMAGENET：https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars 
+ImageNette：https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars
