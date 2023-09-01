@@ -45,10 +45,18 @@ By following the aforementioned methodologies, the experiments presented in this
 
 ---
 
-## Intermediate Data During Experiment
 
-CIFAR100 https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars
-CIFAR10 https://tensorboard.dev/experiment/I9NZuY9gSyeyS9qoNksAXg/#scalars
-STL-10 https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars
-TINYIMAGENET：https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars 
-ImageNette：https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars
+## Intermediate Data During Experiments
+
+We provide access to the TensorBoard records for various datasets used in our experiments. Below is a table that enumerates these datasets along with their corresponding TensorBoard links.
+
+| Dataset      | TensorBoard Link |
+|--------------|------------------|
+| CIFAR100     | [View Experiment](https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars) |
+| CIFAR10      | [View Experiment](https://tensorboard.dev/experiment/I9NZuY9gSyeyS9qoNksAXg/#scalars)  |
+| STL-10       | [View Experiment](https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars)  |
+| TINYIMAGENET | [View Experiment](https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars)  |
+| ImageNette   | [View Experiment](https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars)  |
+
+These TensorBoard records can be useful for gaining insights into the intermediate stages of the experiments, aiding in the fine-tuning and analysis of the model's performance.
+
