@@ -1,0 +1,58 @@
+GPU Usage(Gbyte): 1.1789002418518066
+backbone: resnet18
+backward(min): 9.610000000000001
+batch_size: 128
+checkpoint_dir: experiment_checkpoints/
+dataset_dir: D:/Datasets/cifar10/train/
+device: cuda
+drop_last: true
+experiment: Magic_cube
+forward(min): 30.225
+input_size: 32
+log_dir: experiment_checkpoints/Magic_cube\VIEW_LOG2_mdMoCo_VMmean_n_ep50_v8
+loss_func: MoCo
+max_epochs: 50
+memory_bank_size: 4096
+model: MoCo
+momentum: true
+name: VIEW_LOG2_mdMoCo_VMmean_n_ep50_v8
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_TinyImageNet: D:/Datasets/TinyImageNet/test/
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_TinyImageNet: D:/Datasets/TinyImageNet/train/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim: []
+prjhead_dim:
+- - 512
+  - 512
+  - None
+  - RELU
+- - 512
+  - 512
+  - None
+  - RELU
+- - 512
+  - 512
+  - None
+  - RELU
+- - 512
+  - 128
+  - None
+  - None
+runing time(min): 60.324320487181346
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: false
+transform(min): 0.3998333333333333
+update(min): 40.276666666666664
+view: 8
+view_model: mean_n

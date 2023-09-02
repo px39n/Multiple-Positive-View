@@ -1,0 +1,48 @@
+GPU Usage(Gbyte): 1.1967878341674805
+backbone: resnet18
+backward(min): 13.634166666666665
+batch_size: 256
+checkpoint_dir: experiment_checkpoints/
+dataset_dir: D:/Datasets/cifar10/train/
+device: cuda
+drop_last: true
+experiment: Magic_cube
+forward(min): 13.575999999999999
+input_size: 32
+log_dir: experiment_checkpoints/Magic_cube\Base_mdBarlowTwins_VMNone_ep50_v4
+loss_func: BarlowTwinsLoss
+max_epochs: 50
+memory_bank_size: 4096
+model: BarlowTwins
+momentum: false
+name: Base_mdBarlowTwins_VMNone_ep50_v4
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim: []
+prjhead_dim:
+- - 512
+  - 2048
+  - BN
+  - RELU
+- - 2048
+  - 2048
+  - None
+  - None
+runing time(min): 41.56001882950465
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: false
+transform(min): 0.3594
+update(min): 27.396666666666665
+view: 4
+view_model: None

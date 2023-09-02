@@ -1,0 +1,56 @@
+GPU Usage(Gbyte): 1.1121826171875
+backbone: resnet18
+backward(min): 4.7540000000000004
+batch_size: 128
+checkpoint_dir: experiment_checkpoints/
+dataset_dir: D:/Datasets/cifar10/train/
+device: cuda
+drop_last: true
+experiment: Magic_cube
+forward(min): 10.945500000000001
+input_size: 32
+log_dir: experiment_checkpoints/Magic_cube\UA_mdSimSiam_Aug6_VMmean_n_ep50_BA128_v4
+loss_func: NegativeCosineSimilarity
+max_epochs: 50
+memory_bank_size: 4096
+model: SimSiam
+momentum: false
+name: UA_mdSimSiam_Aug6_VMmean_n_ep50_BA128_v4
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim:
+- - 2048
+  - 512
+  - BN
+  - RELU
+- - 512
+  - 2048
+  - None
+  - None
+prjhead_dim:
+- - 512
+  - 2048
+  - BN
+  - RELU
+- - 2048
+  - 2048
+  - BN
+  - None
+runing time(min): 29.12074666817983
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: true
+transform(min): 0.12238333333333333
+update(min): 16.03666666666667
+view: 4
+view_model: mean_n

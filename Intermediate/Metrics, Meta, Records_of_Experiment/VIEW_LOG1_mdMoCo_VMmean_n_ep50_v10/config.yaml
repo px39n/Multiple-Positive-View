@@ -1,0 +1,66 @@
+GPU Usage(Gbyte): 1.2966599464416504
+backbone: resnet18
+backward(min): 12.526833333333334
+batch_size: 128
+checkpoint_dir: experiment_checkpoints/
+ckpt_path: experiment_checkpoints/Magic_cube\VIEW_LOG1_mdMoCo_VMmean_n_ep50_v10\checkpoints-epoch=49-train_loss=6.66.ckpt
+config_path: experiment_checkpoints/Magic_cube\VIEW_LOG1_mdMoCo_VMmean_n_ep50_v10\config.yaml
+dataset_dir: D:/Datasets/cifar10/train/
+device: cuda
+dir_name: VIEW_LOG1_mdMoCo_VMmean_n_ep50_v10
+drop_last: true
+experiment: Magic_cube
+forward(min): 38.57666666666667
+input_size: 32
+linear_knn_top1_accuracy: 0.7298270172982702
+linear_top1_accuracy: 0.7470252974702529
+linear_top1_average_accuracy: 0.7470203796203796
+linear_top3_accuracy: 0.9432056794320568
+log_dir: experiment_checkpoints/Magic_cube\VIEW_LOG1_mdMoCo_VMmean_n_ep50_v10
+log_path: experiment_checkpoints/Magic_cube\VIEW_LOG1_mdMoCo_VMmean_n_ep50_v10\VIEW_LOG1_mdMoCo_VMmean_n_ep50_v10.csv
+loss_func: MoCo
+max_epochs: 50
+memory_bank_size: 4096
+model: MoCo
+momentum: true
+name: VIEW_LOG1_mdMoCo_VMmean_n_ep50_v10
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_TinyImageNet: D:/Datasets/TinyImageNet/test/
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_TinyImageNet: D:/Datasets/TinyImageNet/train/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim: []
+prjhead_dim:
+- - 512
+  - 512
+  - None
+  - RELU
+- - 512
+  - 512
+  - None
+  - RELU
+- - 512
+  - 512
+  - None
+  - RELU
+- - 512
+  - 128
+  - None
+  - None
+runing time(min): 78.94870332082112
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: false
+transform(min): 0.5043
+update(min): 51.57
+view: 10
+view_model: mean_n

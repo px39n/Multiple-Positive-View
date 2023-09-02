@@ -1,0 +1,58 @@
+GPU Usage(Gbyte): 1.975820541381836
+backbone: resnet18
+backward(min): 3.2605
+batch_size: 256
+checkpoint_dir: experiment_checkpoints/
+dataset_dir: D:/Datasets/TinyImageNet/train/
+device: cuda
+drop_last: true
+experiment: Magic_cube
+forward(min): 12.978666666666667
+input_size: 64
+log_dir: experiment_checkpoints/Magic_cube\Base_ImageNet_mdSimCLR_VMNone_ep50_v2
+loss_func: SimCLR
+max_epochs: 50
+memory_bank_size: 4096
+model: SimCLR
+momentum: false
+name: Base_ImageNet_mdSimCLR_VMNone_ep50_v2
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_TinyImageNet: D:/Datasets/TinyImageNet/test/
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_TinyImageNet: D:/Datasets/TinyImageNet/train/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim: []
+prjhead_dim:
+- - 512
+  - 512
+  - BN
+  - RELU
+- - 512
+  - 512
+  - BN
+  - RELU
+- - 512
+  - 512
+  - BN
+  - RELU
+- - 512
+  - 128
+  - BN
+  - None
+runing time(min): 47.16941843430201
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: false
+transform(min): 11.244833333333334
+update(min): 16.627
+view: 2
+view_model: None

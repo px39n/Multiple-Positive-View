@@ -1,0 +1,42 @@
+backbone: resnet18
+batch_size: 256
+checkpoint_dir: experiment_checkpoints/
+dataset_dir: D:/Datasets/cifar10/train/
+device: cuda
+drop_last: true
+experiment: Magic_cube
+input_size: 32
+log_dir: experiment_checkpoints/Magic_cube\TestBase_mdVICReg_VMNone_ep50_v4
+loss_func: VICRegLoss
+max_epochs: 50
+memory_bank_size: 4096
+model: VICReg
+momentum: false
+name: TestBase_mdVICReg_VMNone_ep50_v4
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim: []
+prjhead_dim:
+- - 512
+  - 2048
+  - BN
+  - RELU
+- - 2048
+  - 2048
+  - BN
+  - None
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: false
+view: 4
+view_model: None

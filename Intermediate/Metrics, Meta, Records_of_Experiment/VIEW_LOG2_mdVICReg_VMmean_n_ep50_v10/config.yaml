@@ -1,0 +1,58 @@
+GPU Usage(Gbyte): 1.9527173042297363
+backbone: resnet18
+backward(min): 25.415000000000003
+batch_size: 128
+checkpoint_dir: experiment_checkpoints/
+ckpt_path: experiment_checkpoints/Magic_cube\VIEW_LOG2_mdVICReg_VMmean_n_ep50_v10\checkpoints-epoch=49-train_loss=18.58.ckpt
+config_path: experiment_checkpoints/Magic_cube\VIEW_LOG2_mdVICReg_VMmean_n_ep50_v10\config.yaml
+dataset_dir: D:/Datasets/cifar10/train/
+device: cuda
+dir_name: VIEW_LOG2_mdVICReg_VMmean_n_ep50_v10
+drop_last: true
+experiment: Magic_cube
+forward(min): 22.543333333333333
+input_size: 32
+linear_knn_top1_accuracy: 0.5655434456554345
+linear_top1_accuracy: 0.5860413958604139
+linear_top1_average_accuracy: 0.5860378621378621
+linear_top3_accuracy: 0.8653134686531346
+log_dir: experiment_checkpoints/Magic_cube\VIEW_LOG2_mdVICReg_VMmean_n_ep50_v10
+log_path: experiment_checkpoints/Magic_cube\VIEW_LOG2_mdVICReg_VMmean_n_ep50_v10\VIEW_LOG2_mdVICReg_VMmean_n_ep50_v10.csv
+loss_func: VICRegLoss
+max_epochs: 50
+memory_bank_size: 4096
+model: VICReg
+momentum: false
+name: VIEW_LOG2_mdVICReg_VMmean_n_ep50_v10
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_TinyImageNet: D:/Datasets/TinyImageNet/test/
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_TinyImageNet: D:/Datasets/TinyImageNet/train/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim: []
+prjhead_dim:
+- - 512
+  - 2048
+  - BN
+  - RELU
+- - 2048
+  - 2048
+  - BN
+  - None
+runing time(min): 68.6301207780838
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: false
+transform(min): 0.4126
+update(min): 48.33166666666667
+view: 10
+view_model: mean_n

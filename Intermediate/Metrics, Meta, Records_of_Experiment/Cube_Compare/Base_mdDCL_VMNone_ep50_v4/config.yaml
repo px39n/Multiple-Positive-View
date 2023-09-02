@@ -1,0 +1,56 @@
+GPU Usage(Gbyte): 0.9235491752624512
+backbone: resnet18
+backward(min): 1.8265
+batch_size: 256
+checkpoint_dir: experiment_checkpoints/
+dataset_dir: D:/Datasets/cifar10/train/
+device: cuda
+drop_last: true
+experiment: Magic_cube
+forward(min): 8.118666666666666
+input_size: 32
+log_dir: experiment_checkpoints/Magic_cube\Base_mdDCL_VMNone_ep50_v4
+loss_func: DCL
+max_epochs: 50
+memory_bank_size: 4096
+model: DCL
+momentum: false
+name: Base_mdDCL_VMNone_ep50_v4
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim: []
+prjhead_dim:
+- - 512
+  - 512
+  - BN
+  - RELU
+- - 512
+  - 512
+  - BN
+  - RELU
+- - 512
+  - 512
+  - BN
+  - RELU
+- - 512
+  - 128
+  - BN
+  - None
+runing time(min): 33.941261275609335
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: false
+transform(min): 8.253499999999999
+update(min): 10.161666666666667
+view: 4
+view_model: None

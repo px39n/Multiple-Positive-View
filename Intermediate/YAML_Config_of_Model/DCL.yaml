@@ -1,0 +1,9 @@
+ 
+
+model: "DCL" # ["MoCo", "BYOL", "SimCLR", "SimSiam", "BarlowTwins", "VICReg", "FastSiam", "Toymodel"] 
+stop_gradient: False
+prjhead_dim: [[512,512, "BN","RELU"],[512,512, "BN","RELU"],[512,512, "BN","RELU"],[512,128,"BN",None]]   #The first is for hidden, #the second is for output
+predhead_dim: []        #The first is for hidden, #the second is for output
+loss_func: "DCL"    # ["VICRegLoss" , "BarlowTwinsLoss" , "NegativeCosineSimilarity", "SimCLR"] 
+                                             #  {"Var_Fea_2dBV":1,"VarBatch_2dFV":22,"VarView_2dBF":22} 
+ 

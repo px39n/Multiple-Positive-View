@@ -1,0 +1,9 @@
+ 
+
+model: "BYOL" # ["MoCo", "BYOL", "SimCLR", "SimSiam", "BarlowTwins", "VICReg", "FastSiam", "Toymodel"] 
+stop_gradient: True
+prjhead_dim: [[512,1024, "BN","RELU"],[1024,256,None,None]]   #The first is for hidden, #the second is for output
+predhead_dim: [[256,1024, "BN","RELU"],[1024,256,None,None]]        #The first is for hidden, #the second is for output
+loss_func: "NegativeCosineSimilarity"    # ["VICRegLoss" , "BarlowTwinsLoss" , "NegativeCosineSimilarity", "SimCLR"] 
+                                             #  {"Var_Fea_2dBV":1,"VarBatch_2dFV":22,"VarView_2dBF":22} 
+momentum: True

@@ -1,0 +1,52 @@
+backbone: resnet18
+batch_size: 256
+checkpoint_dir: experiment_checkpoints/
+dataset_dir: D:/Datasets/TinyImageNet/train/
+device: cuda
+drop_last: true
+experiment: Magic_cube
+input_size: 64
+log_dir: experiment_checkpoints/Magic_cube\Base_200ImageNet_mdBYOL_VMNone_ep200_v4
+loss_func: NegativeCosineSimilarity
+max_epochs: 200
+memory_bank_size: 4096
+model: BYOL
+momentum: true
+name: Base_200ImageNet_mdBYOL_VMNone_ep200_v4
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_TinyImageNet: D:/Datasets/TinyImageNet/test/
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_TinyImageNet: D:/Datasets/TinyImageNet/train/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim:
+- - 256
+  - 1024
+  - BN
+  - RELU
+- - 1024
+  - 256
+  - None
+  - None
+prjhead_dim:
+- - 512
+  - 1024
+  - BN
+  - RELU
+- - 1024
+  - 256
+  - None
+  - None
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: true
+view: 4
+view_model: None

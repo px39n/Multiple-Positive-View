@@ -1,0 +1,58 @@
+GPU Usage(Gbyte): 0.4854259490966797
+backbone: resnet18
+backward(min): 0.5991333333333333
+batch_size: 128
+checkpoint_dir: experiment_checkpoints/
+dataset_dir: D:/Datasets/cifar10/train/
+device: cuda
+drop_last: true
+experiment: Magic_cube
+forward(min): 1.8546666666666667
+input_size: 32
+log_dir: experiment_checkpoints/Magic_cube\Ensemble_mdSimSiam_Aug3_VMmean_n_ep50_BA128_v3
+loss_func: NegativeCosineSimilarity
+max_epochs: 10
+memory_bank_size: 4096
+model: SimSiam
+momentum: false
+name: Ensemble_mdSimSiam_Aug3_VMmean_n_ep50_BA128_v3
+num_workers: 6
+optimizer: SGD
+path_to_data_Alex_clothing: D:/Datasets/clothing
+path_to_data_sentinel: D:/Datasets/sentinel
+path_to_test_TinyImageNet: D:/Datasets/TinyImageNet/test/
+path_to_test_cifar10: D:/Datasets/cifar10/test/
+path_to_test_imagenet-mini: D:/Datasets/imagenet-mini/val/
+path_to_test_xBD: D:/Datasets/xBD/test/
+path_to_train_TinyImageNet: D:/Datasets/TinyImageNet/train/
+path_to_train_cifar10: D:/Datasets/cifar10/train/
+path_to_train_imagenet-mini: D:/Datasets/imagenet-mini/train/
+path_to_train_xBD: D:/Datasets/xBD/train/
+predhead_dim:
+- - 2048
+  - 512
+  - BN
+  - RELU
+- - 512
+  - 2048
+  - None
+  - None
+prjhead_dim:
+- - 512
+  - 2048
+  - BN
+  - RELU
+- - 2048
+  - 2048
+  - BN
+  - None
+runing time(min): 5.085337408383688
+samples: 0
+schedule: cos
+seed: 1
+shuffle: true
+stop_gradient: true
+transform(min): 0.0176
+update(min): 2.5028333333333332
+view: 3
+view_model: mean_n

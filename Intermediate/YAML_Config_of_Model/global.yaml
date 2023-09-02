@@ -1,0 +1,47 @@
+checkpoint_dir: 'experiment_checkpoints/'
+experiment: "batch VS model"
+name: "config1"
+log_dir: 'experiment_checkpoints/batch VS model/config1/'
+
+memory_bank_size: 4096
+seed: 1
+
+input_size: 64
+path_to_train_cifar10: "D:/Datasets/cifar10/train/"
+path_to_test_cifar10: "D:/Datasets/cifar10/test/"
+path_to_train_imagenet-mini: "D:/Datasets/imagenet-mini/train/"
+path_to_test_imagenet-mini: "D:/Datasets/imagenet-mini/val/"
+path_to_data_Alex_clothing: "D:/Datasets/clothing"   # https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
+path_to_data_sentinel: "D:/Datasets/sentinel"   # https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
+path_to_train_xBD: "D:/Datasets/xBD/train/"
+path_to_test_xBD: "D:/Datasets/xBD/test/"
+path_to_train_TinyImageNet: "D:/Datasets/TinyImageNet/train/"
+path_to_test_TinyImageNet: "D:/Datasets/TinyImageNet/test/"
+dataset_dir: "D:/Datasets/cifar10/train/"
+
+
+samples: 0
+batch_size: 512
+shuffle: True
+drop_last : True
+num_workers: 6
+
+model: "Toymodel" # ["DCL", "MoCo", "BYOL", "SimCLR", "SimSiam", "BarlowTwins", "VICReg", "FastSiam", "Toymodel"]
+backbone: "resnet18" # ["resnet18", "resnet18_pretrained", "resnet50", "resnet50_pretrained", 
+             # "efficientnet_b5", "efficientnet_b5_pretrained", "mobilenet_v3", 
+             # "mobilenet_v3_pretrained", "vit_64", "vit_224", res_18_cifar]
+stop_gradient: False
+momentum: False
+prjhead_dim: [[512,2048, "BN","RELU"],[2048,None,None]]  #The first is for hidden, #the second is for output
+predhead_dim: []     #The first is for hidden, #the second is for output
+loss_func: "NegativeCosineSimilarity"    # ["VICRegLoss" ,"DCLLoss","SimCLR","MoCo", "BarlowTwinsLoss" , "NegativeCosineSimilarity", "SimCLR"] 
+                                             #  {"Var_Fea_2dBV":1,"VarBatch_2dFV":22,"VarView_2dBF":22} 
+view_model: "None"    # fastsim #pair-pair #1_n # mean_n #1_mean  #me_me #"std_view"  #var_view n_mean n_mean_sym
+view: 2
+
+
+optimizer: "SGD"    #"SGD"  or  "LARS" "Adam"
+schedule: "cos"    # "cos"  or "LambdaLR" 
+max_epochs: 5
+device: "cuda"
+
