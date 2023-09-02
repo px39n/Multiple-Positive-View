@@ -74,16 +74,17 @@ These codes adopted in Section 'Results' under Table 2 and 3, and in the Appendi
 | STL-10       | [View Experiment](https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars)  |
 | TINYIMAGENET | [View Experiment](https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars)  |
 | ImageNette   | [View Experiment](https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars)  |
+
 These TensorBoard records can be useful for gaining insights into the intermediate stages of the experiments, aiding in the fine-tuning and analysis of the model's performance.
 
-3. Configuration File for each Architecture
+### 3. Configuration File for each Architecture
 
 Please check  [AutoSSL](https://autossl.gitbook.io/) for further information.
 
-4. Intermediate Data of Calculate the Performance and Efficiency
+### 4. Intermediate Data of Calculate the Performance and Efficiency
 This file contains a comprehensive record of the accuracies obtained from various methods applied across the datasets. It pinpoints the instances when 90% and 95% total accuracy milestones are achieved. Notably, there's a detailed assessment of each method's performance specifically when trained on the ImageNette dataset. Relevant references from this analysis are incorporated in Section 'Results' (Table 2 and 3) and the Appendix (Table 10 and 11).
 
-5. Calculation of Transfer Learning
+### 5. Calculation of Transfer Learning
 
 collated data in form of csv.
 
