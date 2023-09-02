@@ -50,7 +50,9 @@ By following the aforementioned methodologies, the experiments presented in this
 We provide access to the TensorBoard records for various datasets used in our experiments. Below is a table that enumerates these datasets along with their corresponding TensorBoard links.
 These codes adopted in Section 'Results' under Table 2 and 3, and in the Appendix under Figure X and Tables 10 and 11.
 
-### 1. 800 Epoches training over 5 Datasets, in Figure 2 
+### 1. Benchmark Comparision
+
+[Intermediate/CheckPoint_of_Result_in_Tensorboard]
 
 | Dataset      | TensorBoard Link |
 |--------------|------------------|
