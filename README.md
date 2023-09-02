@@ -67,3 +67,17 @@ These TensorBoard records can be useful for gaining insights into the intermedia
 
 ### 2. Ablation Experiment
 
+## Additional Data:
+### 1.Tensorboard
+TensorBoard offers insights into the intermediate phases of our experimentation. We've used KNN evaluation for eight distinct methods across five datasets. For the 2-view setup, 800 epochs were trained, whereas the 4-view case had a shorter training of 200 epochs. For example, the difference in KNN accuracy between the two scenarios can be discerned from the TensorBoard. These tensorboards adopted in Section 'Results' under Table 2 and 3, and in the Appendix under Figure X and Tables 11 and 12.
+
+| Dataset      | TensorBoard Link |
+|--------------|------------------|
+| CIFAR100     | [TensorBoard_CIFAR100](https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars) |
+| CIFAR10      | [TensorBoard_CIFAR10](https://tensorboard.dev/experiment/I9NZuY9gSyeyS9qoNksAXg/#scalars)  |
+| STL-10       | [TensorBoard_STL-10](https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars)  |
+| TINYIMAGENET | [TensorBoard_Tiny_ImageNet](https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars)  |
+| ImageNette   | [TensorBoard_ImageNette](https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars)  |
+
+### 2. CSV File: Process Analysis
+This file contains a comprehensive record of the accuracies obtained from various methods applied across the datasets. It pinpoints the instances when 90% and 95% total accuracy milestones are achieved. Notably, there's a detailed assessment of each method's performance specifically when trained on the ImageNette dataset. Relevant references from this analysis are incorporated in Section 'Results' (Table 2 and 3) and the Appendix (Table 11 and 12).
