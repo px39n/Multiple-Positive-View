@@ -52,7 +52,7 @@ These codes adopted in Section 'Results' under Table 2 and 3, and in the Appendi
 
 ### 1. Benchmark Comparision
 
-[Intermediate/CheckPoint_of_Result_in_Tensorboard]
+(Intermediate/CheckPoint_of_Result_in_Tensorboard)
 
 | Dataset      | TensorBoard Link |
 |--------------|------------------|
