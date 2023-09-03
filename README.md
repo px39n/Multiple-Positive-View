@@ -64,7 +64,7 @@ The original data without process, including all detailed data training meta inf
 ### 2. Benchmark Comparision (Accessible via tensorboard services)
 
 We provide collated TensorBoard records for various datasets used in our experiments. Below is a table that enumerates these datasets along with their corresponding TensorBoard links.
-These codes adopted in Section 'Results' under Table 2 and 3, and in the Appendix under Figure X and Tables 10 and 11.
+These codes adopted in Section 'Results' under Table 3 and 4, and in the Appendix under Tables 10 and 11.
 
 
 | Dataset      | TensorBoard Link |
@@ -82,7 +82,7 @@ These TensorBoard records can be useful for gaining insights into the intermedia
 Please check  [AutoSSL](https://autossl.gitbook.io/) for further information.
 
 ### 4. Intermediate Data of Calculate the Performance and Efficiency
-This file contains a comprehensive record of the accuracies obtained from various methods applied across the datasets. It pinpoints the instances when 90% and 95% total accuracy milestones are achieved. Notably, there's a detailed assessment of each method's performance specifically when trained on the ImageNette dataset. Relevant references from this analysis are incorporated in Section 'Results' (Table 2 and 3) and the Appendix (Table 10 and 11).
+This file contains a comprehensive record of the accuracies obtained from various methods applied across the datasets. It pinpoints the instances when 90% and 95% total accuracy milestones are achieved. Notably, there's a detailed assessment of each method's performance specifically when trained on the ImageNette dataset. Relevant references from this analysis are incorporated in Section 'Results' (Table 3 and 4) and the Appendix (Table 10 and 11).
 
 ### 5. Calculation of Transfer Learning
 
