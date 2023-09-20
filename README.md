@@ -13,7 +13,26 @@ Details of all experiments can be found in the appendix of the paper.
 To validate the effectiveness of our proposed methodology, we offer two distinct pathways for reimplementing the experiments outlined in our paper.
 
 ### Way1: Lightly (Benchmark and Efficiency)
+
+(Intro to Lightly)
+Lighly show benchmarks of the different models for self-supervised learning and their performance on public datasets. https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet
+
+(Some Transition words)
+
+(Some Explain WHy our method use it )
 We demonstrate the efficacy of our approach through experiments performed on benchmark datasets using the Python library Lightly. Our methodology has been specifically adapted to accommodate multi-view scenarios in these experiments.
+
+
+| Dataset      | TensorBoard Link |
+|--------------|------------------|
+| CIFAR100     | [Jupyter Notebook](https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars) |
+| CIFAR10      | [Jupyter Notebook](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/CIFAR10.ipynb)  |
+| STL-10       | [Jupyter Notebook](https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars)  |
+| TINYIMAGENET | [Jupyter Notebook](https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars)  |
+| ImageNette   | [Jupyter Notebookt](https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars)  |
+
+
+
 
 ### Way2: AutoSSL
 We provide an in-depth analysis and diagnostic tool via an automated pipeline that we have dubbed AutoSSL. We plan to open-source this tool upon the paper's publication. Below, we outline its core functionalities and its utilization in our research.
