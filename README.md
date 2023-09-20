@@ -1,31 +1,25 @@
  
 # Multiple Positive Views in Self-Supervised Learning
 **To be submitted to ICLR**
-
-## Experiment Reproduction Methodologies
-
-To verify the efficacy of our proposed approach, there are two distinct pathways for reimplementing the experiments presented in this paper. 
-
-### 1. Plug-and-Play Integration
-
-For a majority of view-invariant methods, our approach can be validated with minimal code adjustments. Below is the corresponding pseudo-code for the integration, ensuring all configurations such as stopping gradient, batch size, etc., remain consistent for a fair comparison.
-
 ![image](https://github.com/px39n/Multiple-Positive-View/blob/main/pseudo_code.png)
 
+This document serves as a guide for reproducing the results presented in our paper titled "Multi-Positive-Views in Self-Supervised Learning, 2024."
 
-#### Example Use-Case
+## Experimental Configurations
+Details of all experiments can be found in the appendix of the paper.
 
-In this paper, we demonstrate the applicability of our method by performing experiments on benchmark datasets using the Python library [Lightly](https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet). Our method has been adapted for multi-view scenarios in these experiments.
+## Reimplementation Pathways
+To validate the effectiveness of our proposed methodology, we offer two distinct pathways for reimplementing the experiments outlined in our paper.
 
-### 2. Detailed Analysis and Diagnosis through [AutoSSL](https://autossl.gitbook.io/)
+### Way1: Lightly (Benchmark and Efficiency)
+We demonstrate the efficacy of our approach through experiments performed on benchmark datasets using the Python library Lightly. Our methodology has been specifically adapted to accommodate multi-view scenarios in these experiments.
 
-We introduce an automated pipeline, dubbed `AutoSSL`, that we intend to open-source upon the paper's publication. Below, we provide a concise description of its core functionalities and how it is utilized in our research.
+### Way2: AutoSSL
+We provide an in-depth analysis and diagnostic tool via an automated pipeline that we have dubbed AutoSSL. We plan to open-source this tool upon the paper's publication. Below, we outline its core functionalities and its utilization in our research.
 
-#### 1. Configurable Modeling
-
-The underlying principle behind AutoSSL is to decompose all models into a series of modular functions. This allows for high flexibility in experimental setup, requiring only a configuration file for specification. For instance, the primary difference between SimCLR and SimSiam can be attributed to the stopping gradient and the dimensions of specific layers, all of which can be specified in a configuration file.
-
-#### 2. Metrics and Experimental Records
+1. Configurable Modeling
+AutoSSL is designed with modularity in mind, allowing for the decomposition of models into a series of modular functions. This offers a high degree of flexibility in the experimental setup and requires only a single configuration file for specification. For instance, the primary differences between SimCLR and SimSiam—such as the stopping gradient and dimensions of specific layers—can all be specified via this configuration file.
+2. Metrics and Experimental Records
 
 Upon the completion of training, AutoSSL automatically records a comprehensive set of metrics useful for assessing the quality of self-supervised learning models. These include:
 
