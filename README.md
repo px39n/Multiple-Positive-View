@@ -1,6 +1,6 @@
  
 # Multiple Positive Views in Self-Supervised Learning
-**To be submitted to ICLR**
+**To be submitted to ICLR (Review Stage)**
 
 ![image](https://github.com/px39n/Multiple-Positive-View/blob/main/pseudo_code.png)
 
