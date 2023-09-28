@@ -4,7 +4,7 @@
 
 ![image](https://github.com/px39n/Multiple-Positive-View/blob/main/pseudo_code.png)
 
-This document serves as a guide for reproducing the results presented in our paper titled "Multi-Positive-Views in Self-Supervised Learning, 2024."
+This document serves as a guide for reproducing the results presented in our paper titled as "Multi-Positive-Views in Self-Supervised Learning, 2024."
 
 ## Experimental Configurations
 Details of all experiments can be found in the appendix of the paper.
