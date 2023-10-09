@@ -8,10 +8,10 @@ This document serves as a guide for reproducing the results presented in our pap
 ------------------------------------------------
 
 
-## Hyperparameters: Experimental Configurations
+## Materials 1: Experimental Configurations
 Can be found in the appendix section.
 
-## Code: Re-implementation
+## Materials 2: Re-implementation Code
 
 ### Pathway1: Lightly library (Benchmark and Efficiency)
 ![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/c081c408-eacc-497d-bd38-46dc2b460696)
@@ -58,7 +58,7 @@ By following the aforementioned methodologies, the experiments presented in this
 ---
 
 
-## Intermediate Data During Experiments
+## Materials 3: Intermediate Data During Experiments
 
 
 We uploaded all raw data involved in paper.
