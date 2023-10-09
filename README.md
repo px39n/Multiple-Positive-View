@@ -4,9 +4,9 @@
 This document serves as a guide for reproducing the results presented in our paper titled as "Multi-Positive-Views in Self-Supervised Learning"
 
 **To be submitted to ICLR 2024 (Review Stage)**
-
+**Overview of all Supplementary Materials in Paper see below**
 ------------------------------------------------
-**Overview of all Supplementary Materials in Paper**
+
 
 ## Hyperparameters: Experimental Configurations
 Can be found in the appendix section.
