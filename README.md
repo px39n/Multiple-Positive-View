@@ -15,14 +15,12 @@ Can be found in the appendix section.
 
 #### Pathway1: Lightly library (Benchmark and Efficiency)
 ![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/c081c408-eacc-497d-bd38-46dc2b460696)
-Lightly is a python package for self-supervised learning, making training more efficient.
-Lighly provides with [benchmarks](https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet) comparision on public datasets. 
 
-This unified comparison paved the way for our batch experiments and triggered our thinking about views
+**Lightly** is a python package for self-supervised learning, making training more efficient.
 
+**Lighly** provides with [benchmarks](https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet) comparision on public datasets. 
 
-We demonstrate the efficacy of our approach through experiments performed on benchmark datasets using the Python library Lightly. Our methodology has been specifically adapted to accommodate multi-view scenarios in these experiments.
-
+This unified comparison paved the way for our batch experiments. Thus we present a method for code implementation (as shown in following table). Our code draws inspiration from the simplicity and continuity of Lightly, and it has been tailored specifically for multi-view scenarios in these experiments. This allows anyone to easily replicate and propose enhancements.
 
 | Dataset      | TensorBoard Link |
 |--------------|------------------|
@@ -35,7 +33,7 @@ We demonstrate the efficacy of our approach through experiments performed on ben
 
 
 
-#### Way2: AutoSSL
+#### Pathway2: AutoSSL
 We provide an in-depth analysis and diagnostic tool via an automated pipeline that we have dubbed AutoSSL. We plan to open-source this tool upon the paper's publication. Below, we outline its core functionalities and its utilization in our research.
 
 1. Configurable Modeling
