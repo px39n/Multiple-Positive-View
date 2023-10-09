@@ -6,20 +6,21 @@ This document serves as a guide for reproducing the results presented in our pap
 **To be submitted to ICLR 2024 (Review Stage)**
 
 ------------------------------------------------
-## Overview of all details in Paper
+## Overview of all Supplementary Materials in Paper
 
 ### Hyperparameters: Experimental Configurations
-All experiments details can be found in the appendix of the paper.
+Can be found in the appendix section.
 
-### Re-implementation: Code
-#### Way1: Lightly (Benchmark and Efficiency)
+### Code: Re-implementation
 
-(Intro to Lightly)
-Lighly show benchmarks of the different models for self-supervised learning and their performance on public datasets. https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet
+#### Pathway1: Lightly library (Benchmark and Efficiency)
+![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/c081c408-eacc-497d-bd38-46dc2b460696)
+Lightly is a python package for self-supervised learning, making training more efficient.
+Lighly provides with [benchmarks](https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet) comparision on public datasets. 
 
-(Some Transition words)
+This unified comparison paved the way for our batch experiments and triggered our thinking about views
 
-(Some Explain WHy our method use it )
+
 We demonstrate the efficacy of our approach through experiments performed on benchmark datasets using the Python library Lightly. Our methodology has been specifically adapted to accommodate multi-view scenarios in these experiments.
 
 
