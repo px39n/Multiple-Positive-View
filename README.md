@@ -1,5 +1,5 @@
 
-![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/5d64a2b0-e607-4320-997c-ab7252ac8fe6)
+![image](https://imgur.com/7XNcyMF)
 
 - This is for "Multi-Positive-Views in Self-Supervised Learning" (As Supplementary)
 
@@ -11,19 +11,20 @@
 
 **Pathway1: Lightly library (for benchmark comparision)**
 
-![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/c081c408-eacc-497d-bd38-46dc2b460696)
+![image](https://i.imgur.com/R8lgMoc.png)
 
 **Lightly** is a python package for self-supervised learning, making training more efficient, which provides with [benchmarks](https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet) comparision on public datasets. 
 
 This unified comparison paved the way for our batch experiments. Thus we present a method for code implementation (as shown in following table). Our code draws inspiration from the simplicity and continuity of Lightly, and it has been tailored specifically for multi-view scenarios in these experiments. This allows anyone to easily replicate and propose enhancements.
 
+
 | Dataset      | TensorBoard Link |
 |--------------|------------------|
-| CIFAR100     | [Jupyter Notebook](https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars) |
-| CIFAR10      | [Jupyter Notebook](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/CIFAR10.ipynb)  |
-| STL-10       | [Jupyter Notebook](https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars)  |
-| TINYIMAGENET | [Jupyter Notebook](https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars)  |
-| ImageNette   | [Jupyter Notebookt](https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars)  |
+| CIFAR100     | [Jupyter Notebook](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/CIFAR10.ipynb) |
+| CIFAR10      | [Jupyter Notebook](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/CIFAR100.ipynb)  |
+| STL-10       | [Jupyter Notebook](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/ImageNette.ipynb)  |
+| TINYIMAGENET | [Jupyter Notebook](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/STL10.ipynb)  |
+| ImageNette   | [Jupyter Notebook](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/TinyImageNet.ipynb)  |
 
 
 **Pathway2: AutoSSL (for efficiency,ablation experiment section)**
@@ -74,14 +75,13 @@ The original data without process, including all detailed data training meta inf
 We provide collated TensorBoard records for various datasets used in our experiments. Below is a table that enumerates these datasets along with their corresponding TensorBoard links.
 These codes adopted in Section 'Results' under Table 3 and 4, and in the Appendix under Tables 10 and 11.
 
-
 | Dataset      | TensorBoard Link |
 |--------------|------------------|
-| CIFAR100     | [View Experiment](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/CIFAR10.ipynb) |
-| CIFAR10      | [View Experiment](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/CIFAR100.ipynb)  |
-| STL-10       | [View Experiment](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/ImageNette.ipynb)  |
-| TINYIMAGENET | [View Experiment](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/STL10.ipynb)  |
-| ImageNette   | [View Experiment](https://github.com/px39n/Multiple-Positive-View/blob/main/Fast_Reimplement/TinyImageNet.ipynb)  |
+| CIFAR100     | [View Experiment](https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars) |
+| CIFAR10      | [View Experiment](https://tensorboard.dev/experiment/I9NZuY9gSyeyS9qoNksAXg/#scalars)  |
+| STL-10       | [View Experiment](https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars)  |
+| TINYIMAGENET | [View Experiment](https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars)  |
+| ImageNette   | [View Experiment](https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars)  |
 
 These TensorBoard records can be useful for gaining insights into the intermediate stages of the experiments, aiding in the fine-tuning and analysis of the model's performance.
 
