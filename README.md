@@ -9,13 +9,10 @@ This document serves as a guide for reproducing the results presented in our pap
 
 ------------------------------------------------
 
-
-## Materials 1: Experimental Configurations
-Can be found in the appendix section.
-
-## Materials 2: Re-implementation Code
+## Materials 1: Re-implementation Code
 
 **Pathway1: Lightly library (Benchmark and Efficiency)**
+
 ![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/c081c408-eacc-497d-bd38-46dc2b460696)
 
 **Lightly** is a python package for self-supervised learning, making training more efficient.
@@ -36,6 +33,7 @@ This unified comparison paved the way for our batch experiments. Thus we present
 
 
 **Pathway2: AutoSSL**
+
 We provide an in-depth analysis and diagnostic tool via an automated pipeline that we have dubbed AutoSSL. We plan to open-source this tool upon the paper's publication. Below, we outline its core functionalities and its utilization in our research.
 
 1. Configurable Modeling
@@ -58,6 +56,10 @@ Upon the completion of training, AutoSSL automatically records a comprehensive s
 By following the aforementioned methodologies, the experiments presented in this paper can be reliably replicated and further extended for in-depth analyses.
 
 ---
+
+
+## Materials 2: Experimental Configurations
+Can be found in the appendix section.
 
 
 ## Materials 3: Intermediate Data During Experiments
