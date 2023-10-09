@@ -1,5 +1,5 @@
 
-![image](https://imgur.com/7XNcyMF)
+![image](https://i.imgur.com/7XNcyMF.png)
 
 - This is for "Multi-Positive-Views in Self-Supervised Learning" (As Supplementary)
 
