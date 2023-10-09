@@ -2,15 +2,17 @@
 ![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/5d64a2b0-e607-4320-997c-ab7252ac8fe6)
 
 This document serves as a guide for reproducing the results presented in our paper titled as "Multi-Positive-Views in Self-Supervised Learning"
+
 **To be submitted to ICLR 2024 (Review Stage)**
 
-## Experimental Configurations
-Details of all experiments can be found in the appendix of the paper.
+------------------------------------------------
+## Overview of all details in Paper
 
-## Reimplementation Pathways
-To validate the effectiveness of our proposed methodology, we offer two distinct pathways for reimplementing the experiments outlined in our paper.
+### Hyperparameters: Experimental Configurations
+All experiments details can be found in the appendix of the paper.
 
-### Way1: Lightly (Benchmark and Efficiency)
+### Re-implementation: Code
+#### Way1: Lightly (Benchmark and Efficiency)
 
 (Intro to Lightly)
 Lighly show benchmarks of the different models for self-supervised learning and their performance on public datasets. https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet
@@ -32,7 +34,7 @@ We demonstrate the efficacy of our approach through experiments performed on ben
 
 
 
-### Way2: AutoSSL
+#### Way2: AutoSSL
 We provide an in-depth analysis and diagnostic tool via an automated pipeline that we have dubbed AutoSSL. We plan to open-source this tool upon the paper's publication. Below, we outline its core functionalities and its utilization in our research.
 
 1. Configurable Modeling
@@ -57,7 +59,7 @@ By following the aforementioned methodologies, the experiments presented in this
 ---
 
 
-## Intermediate Data During Experiments
+### Intermediate Data During Experiments
 
 
 We uploaded all raw data involved in paper.
@@ -69,11 +71,11 @@ We uploaded all raw data involved in paper.
 4. Intermediate/Calculation_for_Benchmark_Comparision.csv
 5. Intermediate/Calculation_for_Transfer_Learning.xlsx
  
-### 1. Raw data Records using AutoSSL
+#### 1. Raw data Records using AutoSSL
 
 The original data without process, including all detailed data training meta information, log, metrics, checkpoints, configuration etc,. All results are extracted and processed from them.
 
-### 2. Benchmark Comparision (Accessible via tensorboard services)
+#### 2. Benchmark Comparision (Accessible via tensorboard services)
 
 We provide collated TensorBoard records for various datasets used in our experiments. Below is a table that enumerates these datasets along with their corresponding TensorBoard links.
 These codes adopted in Section 'Results' under Table 3 and 4, and in the Appendix under Tables 10 and 11.
@@ -89,14 +91,14 @@ These codes adopted in Section 'Results' under Table 3 and 4, and in the Appendi
 
 These TensorBoard records can be useful for gaining insights into the intermediate stages of the experiments, aiding in the fine-tuning and analysis of the model's performance.
 
-### 3. Configuration File for each Architecture
+#### 3. Configuration File for each Architecture
 
 Please check  [AutoSSL](https://autossl.gitbook.io/) for further information.
 
-### 4. Intermediate Data of Calculate the Performance and Efficiency
+#### 4. Intermediate Data of Calculate the Performance and Efficiency
 This file contains a comprehensive record of the accuracies obtained from various methods applied across the datasets. It pinpoints the instances when 90% and 95% total accuracy milestones are achieved. Notably, there's a detailed assessment of each method's performance specifically when trained on the ImageNette dataset. Relevant references from this analysis are incorporated in Section 'Results' (Table 3 and 4) and the Appendix (Table 10 and 11).
 
-### 5. Calculation of Transfer Learning
+#### 5. Calculation of Transfer Learning
 
 collated data in form of csv.
 
