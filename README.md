@@ -1,5 +1,3 @@
- 
-# Multiple Positive Views in Self-Supervised Learning
 
 ![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/5d64a2b0-e607-4320-997c-ab7252ac8fe6)
 **To be submitted to ICLR (Review Stage)**
