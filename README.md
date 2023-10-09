@@ -9,6 +9,8 @@
 
 ## Materials 1: Re-implementation Code
 
+By following the below methodologies, the experiments presented in this paper can be reliably replicated and further extended for in-depth analyses.
+
 **Pathway1: Lightly library (for benchmark comparision)**
 
 ![image](https://i.imgur.com/R8lgMoc.png)
@@ -48,10 +50,7 @@ Upon the completion of training, AutoSSL automatically records a comprehensive s
 - Forward propagation time
 - Backward propagation time
 - GPU utilization
----
-
-By following the aforementioned methodologies, the experiments presented in this paper can be reliably replicated and further extended for in-depth analyses.
-
+ 
 ---
 
 ## Materials 2: Intermediate Data During Experiments
