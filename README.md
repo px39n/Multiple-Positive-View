@@ -1,12 +1,10 @@
 
 ![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/5d64a2b0-e607-4320-997c-ab7252ac8fe6)
 
-- This is for "Multi-Positive-Views in Self-Supervised Learning"
+- This is for "Multi-Positive-Views in Self-Supervised Learning" (As Supplementary)
 
 - To be submitted to ICLR 2024 (Review Stage)
-
-- It provide with overview of all Supplementary Materials for paper see below
-
+- 
 ------------------------------------------------
 
 ## Materials 1: Re-implementation Code
