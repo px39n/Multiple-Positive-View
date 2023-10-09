@@ -9,7 +9,7 @@
 
 ## Materials 1: Re-implementation Code
 
-**Pathway1: Lightly library (Benchmark and Efficiency)**
+**Pathway1: Lightly library (for benchmark comparision)**
 
 ![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/c081c408-eacc-497d-bd38-46dc2b460696)
 
@@ -26,7 +26,7 @@ This unified comparison paved the way for our batch experiments. Thus we present
 | ImageNette   | [Jupyter Notebookt](https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars)  |
 
 
-**Pathway2: AutoSSL**
+**Pathway2: AutoSSL (for efficiency,ablation experiment section)**
 
 We provide an in-depth analysis and diagnostic tool via an automated pipeline that we have dubbed AutoSSL. We plan to open-source this tool upon the paper's publication. Below, we outline its core functionalities and its utilization in our research.
 
