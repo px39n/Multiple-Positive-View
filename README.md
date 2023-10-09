@@ -90,12 +90,10 @@ This file contains a comprehensive record of the accuracies obtained from variou
 
 Please Check [Directory Intermediate](https://github.com/px39n/Multiple-Positive-View/tree/main/Intermediate) for more details
 ### 4. Calculation of Transfer Learning
+collated data in form of csv.
 Please Check [Transfer_Learning.csv](https://github.com/px39n/Multiple-Positive-View/blob/main/Intermediate/Calculation_for_Transfer_Learning.xlsx) for more details
-
 
 ## Materials 3: Experimental Configurations
 Can be found in the appendix section.
-
-
-collated data in form of csv.
+ 
 
