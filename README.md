@@ -8,12 +8,12 @@ This document serves as a guide for reproducing the results presented in our pap
 ------------------------------------------------
 **Overview of all Supplementary Materials in Paper**
 
-### Hyperparameters: Experimental Configurations
+## Hyperparameters: Experimental Configurations
 Can be found in the appendix section.
 
-### Code: Re-implementation
+## Code: Re-implementation
 
-#### Pathway1: Lightly library (Benchmark and Efficiency)
+### Pathway1: Lightly library (Benchmark and Efficiency)
 ![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/c081c408-eacc-497d-bd38-46dc2b460696)
 
 **Lightly** is a python package for self-supervised learning, making training more efficient.
@@ -33,7 +33,7 @@ This unified comparison paved the way for our batch experiments. Thus we present
 
 
 
-#### Pathway2: AutoSSL
+### Pathway2: AutoSSL
 We provide an in-depth analysis and diagnostic tool via an automated pipeline that we have dubbed AutoSSL. We plan to open-source this tool upon the paper's publication. Below, we outline its core functionalities and its utilization in our research.
 
 1. Configurable Modeling
@@ -58,7 +58,7 @@ By following the aforementioned methodologies, the experiments presented in this
 ---
 
 
-### Intermediate Data During Experiments
+## Intermediate Data During Experiments
 
 
 We uploaded all raw data involved in paper.
@@ -70,11 +70,11 @@ We uploaded all raw data involved in paper.
 4. Intermediate/Calculation_for_Benchmark_Comparision.csv
 5. Intermediate/Calculation_for_Transfer_Learning.xlsx
  
-#### 1. Raw data Records using AutoSSL
+### 1. Raw data Records using AutoSSL
 
 The original data without process, including all detailed data training meta information, log, metrics, checkpoints, configuration etc,. All results are extracted and processed from them.
 
-#### 2. Benchmark Comparision (Accessible via tensorboard services)
+### 2. Benchmark Comparision (Accessible via tensorboard services)
 
 We provide collated TensorBoard records for various datasets used in our experiments. Below is a table that enumerates these datasets along with their corresponding TensorBoard links.
 These codes adopted in Section 'Results' under Table 3 and 4, and in the Appendix under Tables 10 and 11.
@@ -90,14 +90,14 @@ These codes adopted in Section 'Results' under Table 3 and 4, and in the Appendi
 
 These TensorBoard records can be useful for gaining insights into the intermediate stages of the experiments, aiding in the fine-tuning and analysis of the model's performance.
 
-#### 3. Configuration File for each Architecture
+### 3. Configuration File for each Architecture
 
 Please check  [AutoSSL](https://autossl.gitbook.io/) for further information.
 
-#### 4. Intermediate Data of Calculate the Performance and Efficiency
+### 4. Intermediate Data of Calculate the Performance and Efficiency
 This file contains a comprehensive record of the accuracies obtained from various methods applied across the datasets. It pinpoints the instances when 90% and 95% total accuracy milestones are achieved. Notably, there's a detailed assessment of each method's performance specifically when trained on the ImageNette dataset. Relevant references from this analysis are incorporated in Section 'Results' (Table 3 and 4) and the Appendix (Table 10 and 11).
 
-#### 5. Calculation of Transfer Learning
+### 5. Calculation of Transfer Learning
 
 collated data in form of csv.
 
