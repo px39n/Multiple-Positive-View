@@ -13,9 +13,7 @@
 
 ![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/c081c408-eacc-497d-bd38-46dc2b460696)
 
-**Lightly** is a python package for self-supervised learning, making training more efficient.
-
-**Lighly** provides with [benchmarks](https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet) comparision on public datasets. 
+**Lightly** is a python package for self-supervised learning, making training more efficient, which provides with [benchmarks](https://docs.lightly.ai/self-supervised-learning/getting_started/benchmarks.html#imagenet) comparision on public datasets. 
 
 This unified comparison paved the way for our batch experiments. Thus we present a method for code implementation (as shown in following table). Our code draws inspiration from the simplicity and continuity of Lightly, and it has been tailored specifically for multi-view scenarios in these experiments. This allows anyone to easily replicate and propose enhancements.
 
@@ -26,8 +24,6 @@ This unified comparison paved the way for our batch experiments. Thus we present
 | STL-10       | [Jupyter Notebook](https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars)  |
 | TINYIMAGENET | [Jupyter Notebook](https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars)  |
 | ImageNette   | [Jupyter Notebookt](https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars)  |
-
-
 
 
 **Pathway2: AutoSSL**
