@@ -2,7 +2,8 @@
 # Multiple Positive Views in Self-Supervised Learning
 **To be submitted to ICLR (Review Stage)**
 
-![image](https://github.com/px39n/Multiple-Positive-View/blob/main/pseudo_code.png)
+![image](https://github.com/px39n/Multiple-Positive-View/assets/53490111/5d64a2b0-e607-4320-997c-ab7252ac8fe6)
+
 
 This document serves as a guide for reproducing the results presented in our paper titled as "Multi-Positive-Views in Self-Supervised Learning, 2024."
 
