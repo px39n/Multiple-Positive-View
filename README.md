@@ -29,6 +29,7 @@ This unified comparison paved the way for our batch experiments. Thus we present
 **Pathway2: AutoSSL**
 
 We provide an in-depth analysis and diagnostic tool via an automated pipeline that we have dubbed AutoSSL. We plan to open-source this tool upon the paper's publication. Below, we outline its core functionalities and its utilization in our research.
+(Doc only: https://autossl.gitbook.io/autossl/getting-started/configuration-supported)
 
 1. Configurable Modeling
 AutoSSL is designed with modularity in mind, allowing for the decomposition of models into a series of modular functions. This offers a high degree of flexibility in the experimental setup and requires only a single configuration file for specification. For instance, the primary differences between SimCLR and SimSiam—such as the stopping gradient and dimensions of specific layers—can all be specified via this configuration file.
