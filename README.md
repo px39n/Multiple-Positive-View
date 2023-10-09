@@ -6,7 +6,7 @@ This document serves as a guide for reproducing the results presented in our pap
 **To be submitted to ICLR 2024 (Review Stage)**
 
 ------------------------------------------------
-## Overview of all Supplementary Materials in Paper
+**Overview of all Supplementary Materials in Paper**
 
 ### Hyperparameters: Experimental Configurations
 Can be found in the appendix section.
