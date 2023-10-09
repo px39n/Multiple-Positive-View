@@ -30,7 +30,7 @@ This unified comparison paved the way for our batch experiments. Thus we present
 
 We provide an in-depth analysis and diagnostic tool via an automated pipeline that we have dubbed AutoSSL. We plan to open-source this tool upon the paper's publication. Below, we outline its core functionalities and its utilization in our research.
 
-Access:https://autossl.gitbook.io/autossl/getting-started/configuration-supported (Doc only)
+[Documentation Access](https://autossl.gitbook.io/autossl/getting-started/configuration-supported)(Doc only for blind review)
 
 1. Configurable Modeling
 AutoSSL is designed with modularity in mind, allowing for the decomposition of models into a series of modular functions. This offers a high degree of flexibility in the experimental setup and requires only a single configuration file for specification. For instance, the primary differences between SimCLR and SimSiam—such as the stopping gradient and dimensions of specific layers—can all be specified via this configuration file.
@@ -90,14 +90,13 @@ These codes adopted in Section 'Results' under Table 3 and 4, and in the Appendi
 
 These TensorBoard records can be useful for gaining insights into the intermediate stages of the experiments, aiding in the fine-tuning and analysis of the model's performance.
 
-### 3. Configuration File for each Architecture
-
-Please check  [AutoSSL](https://autossl.gitbook.io/) for further information.
-
-### 4. Intermediate Data of Calculate the Performance and Efficiency
+### 3. Intermediate Data of Calculate the Performance and Efficiency
 This file contains a comprehensive record of the accuracies obtained from various methods applied across the datasets. It pinpoints the instances when 90% and 95% total accuracy milestones are achieved. Notably, there's a detailed assessment of each method's performance specifically when trained on the ImageNette dataset. Relevant references from this analysis are incorporated in Section 'Results' (Table 3 and 4) and the Appendix (Table 10 and 11).
 
-### 5. Calculation of Transfer Learning
+Please Check [Directory Intermediate](https://github.com/px39n/Multiple-Positive-View/tree/main/Intermediate) for more details
+### 4. Calculation of Transfer Learning
+Please Check [Transfer_Learning.csv](https://github.com/px39n/Multiple-Positive-View/blob/main/Intermediate/Calculation_for_Transfer_Learning.xlsx) for more details
+
 
 collated data in form of csv.
 
