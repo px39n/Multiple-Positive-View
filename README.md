@@ -3,7 +3,7 @@
 
 - This is for "Multi-Positive-Views in Self-Supervised Learning" (As Supplementary)
 
-- To be submitted to ICLR 2024 (Review Stage)
+- To be submitted to ICML 2024 (Review Stage)
   
 ------------------------------------------------
 
@@ -77,11 +77,11 @@ These codes adopted in Section 'Results' under Table 3 and 4, and in the Appendi
 
 | Dataset      | TensorBoard Link |
 |--------------|------------------|
-| CIFAR100     | [View Experiment](https://tensorboard.dev/experiment/lBWExQayRpKIbuv5d0nA9Q/#scalars) |
-| CIFAR10      | [View Experiment](https://tensorboard.dev/experiment/I9NZuY9gSyeyS9qoNksAXg/#scalars)  |
-| STL-10       | [View Experiment](https://tensorboard.dev/experiment/j3SdHOk3QzOKKQksXVRxlQ/#scalars)  |
-| TINYIMAGENET | [View Experiment](https://tensorboard.dev/experiment/BcdkoHAkR8O1luRVTkULwA/#scalars)  |
-| ImageNette   | [View Experiment](https://tensorboard.dev/experiment/hon7xMTqR7W3NIQ4YIlBLg/#scalars)  |
+| CIFAR100     | [Tensorboard](https://github.com/px39n/Multiple-Positive-View/tree/main/Traininglogs) |
+| CIFAR10      | [Tensorboard](https://github.com/px39n/Multiple-Positive-View/tree/main/Traininglogs)  |
+| STL-10       | [Tensorboard](https://github.com/px39n/Multiple-Positive-View/tree/main/Traininglogs)  |
+| TINYIMAGENET | [Tensorboard](https://github.com/px39n/Multiple-Positive-View/tree/main/Traininglogs)  |
+| ImageNette   | [Tensorboard](https://github.com/px39n/Multiple-Positive-View/tree/main/Traininglogs)  |
 
 These TensorBoard records can be useful for gaining insights into the intermediate stages of the experiments, aiding in the fine-tuning and analysis of the model's performance.
 
