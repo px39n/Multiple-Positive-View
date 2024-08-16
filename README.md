@@ -1,9 +1,9 @@
 
 ![image](https://i.imgur.com/7XNcyMF.png)
 
-- This is for "Multi-Positive-Views in Self-Supervised Learning" (As Supplementary)
+- This is for "A Theoretical Formulation on the Use of Multiple Positive Views in Contrastive Learning" (As Supplementary)
 
-- To be submitted to ICML 2024 (Review Stage)
+- To be accepted to GCPR 2024
   
 ------------------------------------------------
 
